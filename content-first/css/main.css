@@ -1,0 +1,106 @@
+html {
+font: 100%/1.15 sans-serif;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 66px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+body {
+font-family: Georgia, sans-serif;
+color:#333;
+margin: 0;
+}
+
+
+
+
+
+
+
+
+.visuallyhidden {
+   border: 0;
+  clip: rect(0 0 0 0);
+   -webkit-clip-path: inset(50%);
+   clip-path: inset(50%);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+   white-space: nowrap; /* 1 */
+}
+
+
+
+
+
+/*--- navigation---*/
+
+nav ul{
+list style: none;
+padding-left: 0;
+margin:0;
+}
+
+ /*--- navigation---*
+ nav li {
+ padding-bottom: .5em;
+ border-bottom: 1px dashed #ccc;
+ margin-top: .5em;
+ }
+
+
+ nav li:first-child {
+ padding-top: .5em;
+ border-top: 1px dashed #ccc;
+ }
+
+/***---nav***/
+ nav a {
+ color: #030;
+ text-decoration:  none;
+ border-bottom: 1px solid #060;
+
+ }
+
+nav a:hover {
+ border-bottom-color: #f90;
+
+}
+
+
+/* ---breakpoints / layout changes / for wider screen---*/
+
+@media (min-width: 48em) {
+
+
+nav ul {
+/*text-align: center;*/
+
+}
+
+nav li {
+display: inline;
+margin-left: .5em;
+}
+
+nav li:first-child {
+margin-left: 0;
+}
+
+
+}
+
+
+
+
+
+
